@@ -1,7 +1,7 @@
 {
   "name": "coinnetworklist",
   "version": "1.0.0",
-  "description": "A list of cryptocurrency network prefixes. ",
+  "description": "A list of over 190 cryptocurrency network prefixes used for key generation.",
   "main": "coinNetworkList.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

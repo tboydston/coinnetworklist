@@ -5,23 +5,23 @@ A list of over 190 cryptocurrency network prefixes.
 
 Installation
 
-``
+`
 npm install coinnetworklist
-``
+`
 
 Accessing data 
 
-`` 
+ ```
 
 const coinList = require('coinNetworkList')
 
 console.log(coinlist.BTC)
 
-``
+```
 
 Result
 
-``
+```
 {
        "shortName":"BTC",
        "longName":"Bitcoin",
@@ -88,5 +88,14 @@ Result
        },
        "coinNumber":0
 }
-``
+```
+
+# Notes
+
+The default network data for a coin is listing in the "p2pkh" object key. Some coins contain an "addressType" key. This is to indicate that they require special hashing logic or that they use the special hashing logic of a different coin. For example BSC uses ETH hashing logic.
+
+
+# Credit
+
+This list was consolidated from the source of [iancoleman.io/bip39](https://iancoleman.io/bip39). 
 

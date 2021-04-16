@@ -1517,6 +1517,26 @@ module.exports = {
        },
        "coinNumber":60
     },
+    "WAN":{
+      "shortName":"WAN",
+      "longName":"Wanchain",
+      "addressType":"ethereum",
+      "addressPrefix":"0x",
+      "network":{
+         "p2pkh":{
+            "messagePrefix":"\u0019Wanchain Signed Message:\n",
+            "bip32":{
+               "public":76067358,
+               "private":76066276
+            },
+            "pubKeyHash":0,
+            "scriptHash":5,
+            "wif":128,
+            "bech32":"bc"
+         }
+      },
+      "coinNumber":5718350
+   },
     "EWT":{
        "shortName":"EWT",
        "longName":"EnergyWeb",

@@ -826,7 +826,7 @@ module.exports = {
        "longName":"Cryptoescudo",
        "network":{
           "p2pkh":{
-             "messagePrefix":"\u0018Cannacoin Signed Message:\n",
+             "messagePrefix":"\u0018Cryptoescudo Signed Message:\n",
              "bip32":{
                 "public":76067358,
                 "private":76066276

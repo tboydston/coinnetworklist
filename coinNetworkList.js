@@ -2632,7 +2632,7 @@ module.exports = {
              },
              "pubKeyHash":52,
              "scriptHash":13,
-             "wif":128
+             "wif":180
           }
        },
        "coinNumber":7

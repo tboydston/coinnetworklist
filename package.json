@@ -1,6 +1,6 @@
 {
   "name": "coinnetworklist",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A list of over 190 cryptocurrency network prefixes used for key generation.",
   "main": "coinNetworkList.js",
   "scripts": {
